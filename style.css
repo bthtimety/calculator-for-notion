@@ -19,6 +19,11 @@ input {
     font-weight: 700;
     text-align: right;
     background-color: transparent;
+
+    &:focus {
+        border: none;
+        outline: none;
+    }
 }
 
 .calculator {
