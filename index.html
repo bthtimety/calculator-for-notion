@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator Widget for Notion</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./calculator.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="calculator">
+    <div class="calculator__display_wrapper">
+        <label for="display-operation"></label>
+        <input id="display-operation" class="calculator__display_operation" type="text" readonly>
+        <label for="display-result"></label>
+        <input id="display-result" class="calculator__display_result" type="text" readonly>
+    </div>
+    <div class="calculator__buttons"></div>
+</div>
+<script src="./main.js"></script>
+</body>
+</html>
